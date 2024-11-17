@@ -1,0 +1,96 @@
+* {
+    font-family: Edu;
+}
+.head {
+    background-image: url(Ar.jpg);
+    background-size: cover;
+    height: 545px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    text-shadow: 0 0 10px black;
+    margin: 0;
+}
+@font-face{
+    font-family: Edu;
+    src: url(EduAUVICWANTPre-Medium.ttf);
+}
+#fh {
+    padding-bottom: 5px;
+}
+#sh {
+    padding-top: 5px; 
+}
+.cards {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.cimg {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+.ctxt {
+    text-align: center;
+}
+.places {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    padding: 20px 0px;
+}
+.btn {
+    text-decoration: none;
+    color: darkblue;
+}
+.btn:hover {
+    background-color: #D8E5F1;
+}
+#five {
+    text-align: center;
+    color: darkblue;
+    padding: 10px;
+}
+.gen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.moti {
+    color: darkblue;
+    width: 500px;
+    height: 300px;
+    text-align: center;
+    background: lightskyblue;
+    border-bottom: royalblue solid 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 6px;
+    margin: 50px;
+}
+#img-me {
+    width: 200px;
+    height: 250px;
+    margin: 20px 10px 20px 20px;
+    border-radius: 6px;
+}
+#txt-me {
+    margin: 20px 20px 20px 10px;
+}
+footer {
+    color: darkblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.link {
+    text-decoration: none;
+    color: darkblue;
+}
